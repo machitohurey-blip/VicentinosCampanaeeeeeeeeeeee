@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+    <style>
+html {
+    scroll-behavior: smooth;
+}
+</style>
+    <head><meta charset="UTF-8">
+    <title>Vicentinos contra el cáncer</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <script>
+    window.onload = function () {
+        window.scrollTo(0, 0);
+    };
+</script>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="prevencion.html">Prevención</a>
+    <a href="autocuidado.html">Hábitos de autocuidado</a>
+</nav>
+
+ <div class="tarjeta">
+    <H1>Vicentinos luchando contra el cáncer</H1>
+    <p>
+        Somos un grupo de estudiantes del Colegio San Vicente de Paúl 
+        comprometidos con difundir información sobre la prevencióndel 
+        cáncer y apoyar a quienes lo enfrentan.
+    </p>
+    
+ </div>
+<img src="img/diadelcancer.png"
+     alt="Día del cáncer">
+<!-- VIDEO EDUCATIVO -->
+
+<section class="seccion-multimedia">
+
+    <h2>Video Educativo: Protege tu piel del Sol</h2>
+
+    <p>
+        Aprende cómo prevenir los daños de la radiación UV
+        en la sierra central.
+    </p>
+
+    <div class="contenedor-responsive">
+
+        <iframe
+            src="https://youtu.be/FgzF9d3g3CI?si=fRFEzb-REDbUegYD"
+            title="Video de prevención del cáncer de piel"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+</section>
+
+
+<!-- QUIZ INTERACTIVO -->
+
+<section class="seccion-multimedia">
+
+    <h2>Trivia Interactiva: ¿Cuánto sabes sobre protección solar?</h2>
+
+    <p>
+        Pon a prueba tus conocimientos sobre hábitos de autocuidado en Tarma.
+    </p>
+
+    <div class="contenedor-responsive-quiz">
+
+        <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSf5KJ7ATk4JcD_-erbyRjgOYtQ1GjSuTRTP8pwxg4hZj8qg4A/viewform?usp=header"
+            width="100%"
+            height="600"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0">
+            Cargando…
+        </iframe>
+
+    </div>
+
+</section>
+</body>
+
+<script>
+window.history.scrollRestoration = "manual";
+
+window.addEventListener("load", function () {
+    window.scrollTo(0, 0);
+});
+</script>
+<!-- Pie de página con enlace QR -->
+<footer class="pie-pagina">
+
+    <div class="contenido-footer">
+
+        <h3>¡Lleva la campaña en tu celular!</h3>
+
+        <p>
+            Escanea este código QR para acceder rápidamente
+            a la web oficial desde afiches y gorros:
+        </p>
+
+        <div class="contenedor-qr">
+
+            <img
+                src="img/codigo-qr-campana.png"
+                alt="Código QR de la campaña Vicentinos contra el cáncer"
+                class="imagen-qr">
+
+        </div>
+
+        <p>© 2026 Colegio San Vicente de Paúl - Tarma</p>
+
+    </div>
+
+</footer>
